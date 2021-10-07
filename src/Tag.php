@@ -144,7 +144,7 @@ $in = false;
 		return $this->output;
 	}
 
-	public static function __callStatic($name, $arguments) {
+	public static function __callStatic(string $name,array $arguments) {
 		$tag = new Tag($name);
 
 		return $tag->setElements(

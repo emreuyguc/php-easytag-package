@@ -19,11 +19,12 @@ abstract class HtmlTag extends Tag {
 		'track'
 	];
 
-	public static function __callStatic($name, $arguments): string {
+	public static function __callStatic(string $name, array $arguments): string {
 		$tag = parent::__callStatic($name, $arguments);
 		if (in_array($name, self::selfClosingTags)) {
 			$tag->setSelfClosing();
 		}
+
 		return $tag->build();
 	}
 
