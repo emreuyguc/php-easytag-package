@@ -1,0 +1,31 @@
+{
+	"name" : "emreuyguc/easytag",
+	"description" : "Simple html Tag creator.",
+	"keywords": ["tag","html","tag creator","tag generator","html generator","xml","html creator"],
+	"version":"1.0.0",
+	"require" : {
+		"php": ">=7.4"
+	},
+	"type":"library",
+	"license":"GPL-3.0-only",
+	"homepage":"https://github.com/emreuyguc/php-easytag",
+	"authors" : [
+		{
+			"name":"Emre Utku Uyguç",
+			"email":"emreuyguc@gmail.com",
+			"homepage":"https://emreuyguc.com",
+			"role":"developer"
+		}
+	],
+	"support":{
+		"email":"support@emreuyguc.com",
+		"source" : "https://github.com/emreuyguc/php-easytag"
+	},
+	"autoload":{
+		"psr-4":{
+			"emreuyguc\\EasyTag\\":"src/"
+		}
+	},
+	"minimum-stability": "stable"
+
+}
