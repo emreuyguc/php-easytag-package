@@ -1,5 +1,5 @@
 # php-easytag
-Tag Creator for Php.  
+Html/Xml markup Tag Creator for Php.  
 
 It is an easy markup tag creation tool with PHP. You can use helper methods with the **Tag** object and build it whenever you want. If you wish, you can have your tag build instantly by using the **TagBuild** extended class.
 
